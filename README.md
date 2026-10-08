@@ -17,7 +17,7 @@ Si configuramos la coordenada Y del objetivo en 0, el objeto se moverá únicame
 
 Por otro lado, si se establece una coordenada Y del objetivo distinta de cero, el objeto se desplazará hacia arriba o hacia abajo dependiendo del valor de Y, lo que permitirá simular un movimiento vertical.
 
-![Ejercicio1](Media/Ejercicio-1.gif)
+![Ejercicio1](./Media/Movimiento-1.gif)
 
 ## Ejercicio 2
 
@@ -33,7 +33,7 @@ Por ello, se modifica el funcionamiento al introducir el parámetro `speed` que 
 
 Al añadir el factor de `Time.deltaTime`, se asegura que el movimiento del objeto sea independiente de la velocidad de fotogramas del juego. Esto significa que, sin importar cuán rápido o lento se ejecute el juego, el objeto se moverá a una velocidad constante hacia el objetivo.
 
-![Ejercicio2](Media/Ejercicio-2.gif)
+![Ejercicio2](./Media/Movimiento-2.gif)
 
 ## Ejercicio 3
 
@@ -70,7 +70,7 @@ public class Ejercicio3 : MonoBehaviour
 
 Esto permite el movimiento del objeto hacia el objetivo de manera consistente y suave, asegurando que la orientación del objeto esté alineada con la dirección del movimiento.
 
-![Ejercicio3](Media/Ejercicio-3.gif)
+![Ejercicio3](./Media/Movimiento-3.gif)
 
 ## Ejercicio 4
 
@@ -115,7 +115,7 @@ public class Ejercicio4 : MonoBehaviour
 }
 ```
 
-![Ejercicio4](Media/Ejercicio-4.gif)
+![Ejercicio4](./Media/Movimiento-4.gif)
 
 ## Ejercicio 5
 
@@ -170,7 +170,7 @@ public class Ejercicio5_2 : MonoBehaviour
 
 Debido a que estamos utilizando el antiguo sistema de Input, el Input Manager tuvo que ser modificado a utilizar el mismo por motivos de simplicidad. Como se puede ver, al utilizar las flechas del teclado el cubo verde se moverá en el plano XZ, y al presionar la barra espaciadora, la velocidad de movimiento se incrementará mientras se mantenga presionada. El cubo rojo seguirá al cubo verde de manera consistente, ajustando su orientación y movimiento hacia la posición del cubo verde.
 
-![Ejercicio5](Media/Ejercicio-5.gif)
+![Ejercicio5](./Media/Movimiento-5.gif)
 
 ## Ejercicio 6
 
@@ -199,7 +199,7 @@ public class Ejercicio6 : MonoBehaviour
 }
 ```
 
-![Ejercicio6](Media/Ejercicio-6.gif)
+![Ejercicio6](./Media/Movimiento-6.gif)
 
 ## Ejercicio 7
 
@@ -249,8 +249,8 @@ public class Ejercicio7_2 : MonoBehaviour
 }
 ```
 
-![Ejercicio7_1](Media/Ejercicio-7_1.gif)
-![Ejercicio7_2](Media/Ejercicio-7_2.gif)
+![Ejercicio7_1](./Media/Movimiento-7_1.gif)
+![Ejercicio7_2](./Media/Movimiento-7_2.gif)
 
 ## Ejercicio 8
 
@@ -283,7 +283,7 @@ public class Ejercicio8 : MonoBehaviour
 }
 ```
 
-![Ejercicio8](Media/Ejercicio-8.gif)
+![Ejercicio8](./Media/Movimiento-8.gif)
 
 ## Ejercicio 9
 
@@ -332,7 +332,7 @@ public class Ejercicio9 : MonoBehaviour
 }
 ```
 
-![Ejercicio9](Media/Ejercicio-9.gif)
+![Ejercicio9](./Media/Movimiento-9.gif)
 
 ## Ejercicio 10
 
@@ -348,4 +348,4 @@ public class Ejercicio9 : MonoBehaviour
 
 Para este ejercicio se siguieron los pasos expuestos para crear la escena con el circuito adecuado y se reutilizó el script del ejercicio 8 para hacer funcionar al cubo rojo para que persiga al `target` que se mueve a lo largo del circuito.
 
-![Ejercicio10](Media/Ejercicio-10.gif)
+![Ejercicio10](./Media/Movimiento-10.gif)
