@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class Ejercicio1 : MonoBehaviour
+public class Ejercicio2 : MonoBehaviour
 {
     public GameObject cube;
+    public float speed = 5f;
     private Vector3 goal;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,7 +15,6 @@ public class Ejercicio1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        goal = goal * 0.5f;
-        this.transform.Translate(goal);
+        this.transform.Translate(goal.normalized * speed * Time.deltaTime);
     }
 }
